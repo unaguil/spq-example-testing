@@ -18,4 +18,9 @@ public class UserTest {
     public void testGetName() {
         assertEquals("John", u.getName());
     }
+
+    @Test
+    public void testString() {
+        assertEquals("John Smith", u.toString());
+    }
 }
