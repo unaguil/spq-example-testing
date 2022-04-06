@@ -21,6 +21,6 @@ public class UserTest {
 
     @Test
     public void testString() {
-        assertEquals("John Smith", u.toString());
+        assertEquals("Smith, John", u.toString());
     }
 }
